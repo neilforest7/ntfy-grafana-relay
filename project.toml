@@ -1,0 +1,8 @@
+[_]
+schema-version = "0.2"
+
+[io.buildpacks]
+builder = "paketobuildpacks/builder-jammy-base"
+
+[[io.buildpacks.group]]
+uri = "paketo-buildpacks/python"
